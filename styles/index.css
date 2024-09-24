@@ -1,0 +1,62 @@
+body,
+html,
+div {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background: black;
+    color: white;
+    margin: 0% 0% 2% 0%;
+    padding: 1%;
+
+    p {
+        margin: auto;
+        font-size: 40px;
+    }
+}
+
+#about {
+    margin: 0% 1% 0% 1%;
+}
+
+#PJ {
+    margin: 0% 2% 0% 2%;
+}
+
+.PJ {
+    width: 95%;
+    height: 150px;
+    background: black;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:800px) {
+    .PJ {
+        background: aqua;
+    }
+
+    nav {
+        p{
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (max-width:500px) {
+    .PJ {
+        background: blue;
+    }
+    nav {
+        p{
+            font-size: 20px;
+        }
+    }
+}
